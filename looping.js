@@ -108,6 +108,17 @@ while (n < 8)
 
 console.log("#####################################################################")
 
+// const nom = 10
+// for(let x = 0; x < nom; x++){
+//     console.log(x)
+// }
+
+// const nim = ["help", "keep", "little", "weak"]
+
+// for(h in nim){
+//     console.log(nim[h])
+// }
+
 const car = ["BMW", "volvo", "saab", "ford"];
 console.log(car)
 let z = 0;
@@ -119,11 +130,44 @@ for (;car[z];) {
 }
 
 const carses = ["volvo", "saab", "ford", "BMW"]
-let h = 0;
+let v = 0;
 let tdt = "";
 // console.log(tdt)
 
-while (carses[h]) {
-    tdt += carses[h];
-    h++;
+while (carses[v]) {
+    tdt += carses[v];
+    v++;
 }
+
+
+console.log("helper only")
+
+q = 1
+
+do{
+    console.log(q)
+    q++;
+}while(q < 10)
+
+// ###################################################
+
+const myArray = []
+let sin = 10;
+
+do{
+    myArray.push(sin)
+    sin++;
+} while (sin < 10)
+ 
+console.log(myArray)
+
+
+const sicks = ["runer", "fighter", "giver", "lacker"]
+let ink = 1
+
+do{
+    console.log(ink)
+    ink++;
+}while(ink < sicks)
+
+console.log(sicks[2])
