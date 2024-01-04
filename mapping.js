@@ -59,3 +59,5 @@ const copyArr = [...caracterArr]
 copyArr.splice()
 
 console.table(copyArr)
+
+print(document.getElementById("imgBlur"))
