@@ -1,5 +1,5 @@
 # Revisiting some Javascript functionality
-Like, 
+Like :
 Mapping, 
 Function, 
 Class, 
